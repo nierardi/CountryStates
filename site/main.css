@@ -1,0 +1,30 @@
+.x-scrollable-menu {
+	height: auto;
+	max-height: 300px;
+	overflow-x: hidden;
+}
+
+.btn-primary {
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	font-size: 95%;
+}
+
+.btn-primary:hover {
+	background-color: rgba(255, 255, 255, 0.6);
+	border: 2px solid rgba(255, 255, 255, 0);
+	color: rgb(24, 24, 24);
+}
+
+.btn-primary:focus, .btn-primary:active {
+	background-color: white !important;
+	border: 2px solid white !important;
+	color: rgb(24, 24, 24) !important;
+}
+
+.btn-primary:disabled {
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.4);
+	color: white;
+	cursor: not-allowed;
+}
